@@ -1,2 +1,9 @@
-print("hello everyone")
-get_name = input("who are you?")
+#get name until am exite code is entered
+
+name = ""
+while name != "xxx":
+    name = input("who are you? ")
+    print(name)
+
+print()
+print("we are done!")
